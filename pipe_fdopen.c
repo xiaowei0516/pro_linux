@@ -28,12 +28,14 @@ int main(int argc, char *argv[]){
  	}
 
  	if(pid == 0){
+		close(*fdr);
         sleep(4);
 		fp = fdopen(fd[1],"w");
 		fprintf(fp,"abc");
   		fclose(fp);
   		return 0;
  	}else{
+		close(*fdw);
   		fp = fdopen(fd[0],"r");
   		setvbuf(fp,NULL,_IONBF,0);
   		while(1){
