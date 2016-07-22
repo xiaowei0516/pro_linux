@@ -8,3 +8,4 @@
 6. pipe.c   [use normal operation, parent<->child process interactive]
 7. pipe_fdopen.c [use fdopen, parent<->child process interactive]
 8. strtok.c [string split, using strtok, origin string be modified]
+9. array_pointer.c [string split, return Two-dimensional array]
