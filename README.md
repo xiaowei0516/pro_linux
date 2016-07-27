@@ -11,3 +11,4 @@
 9. array_pointer.c [string split, return Two-dimensional array]
 10. strip.c  [use ispace, delete start and end space character]
 11. split.c  [use specify character  split, return array pointer]
+12. setnic.c [use ethtool close NIC parameter, using saas ]
