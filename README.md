@@ -13,3 +13,4 @@
 11. split.c  [use specify character  split, return array pointer]
 12. setnic.c [use ethtool close NIC parameter, using saas ]
 13. skiplist.c [skiplist repalce balance tree, serarch log(n)]
+14. strim.c [delete specify character in string]
